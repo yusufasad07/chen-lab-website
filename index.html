@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chen Bioengineering Lab | Biomaterials and Regenerative Medicine for Cardiovascular Health</title>
+    <meta name="description" content="Chen Bioengineering Lab advances biomaterials, cardiovascular tissue engineering, and regenerative medicine innovations." />
+    <meta property="og:title" content="Chen Bioengineering Lab" />
+    <meta property="og:description" content="Biomaterials and Regenerative Medicine for Cardiovascular Health" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:image" content="assets/img/project-graft.svg" />
+    <link rel="icon" href="assets/img/project-graft.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+            },
+            colors: {
+              primary: {
+                DEFAULT: '#0ea5e9',
+                dark: '#38bdf8',
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+    <header class="sticky top-0 z-50 backdrop-blur bg-white/80 dark:bg-slate-900/80 border-b border-slate-200/60 dark:border-slate-800">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <a href="index.html" class="flex items-center gap-3 focus-ring">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-sky-500 text-white font-semibold">C</span>
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-300">Chen Bioengineering Lab</p>
+            <p class="text-sm text-slate-500 dark:text-slate-400">Cardiovascular Biomaterials</p>
+          </div>
+        </a>
+        <nav aria-label="Primary navigation" class="hidden gap-8 text-sm font-medium text-slate-700 dark:text-slate-200 md:flex">
+          <a class="hover:text-sky-500 focus-ring" href="index.html">Home</a>
+          <a class="hover:text-sky-500 focus-ring" href="research.html">Research</a>
+          <a class="hover:text-sky-500 focus-ring" href="people.html">People</a>
+          <a class="hover:text-sky-500 focus-ring" href="publications.html">Publications</a>
+          <a class="hover:text-sky-500 focus-ring" href="news.html">News</a>
+          <a class="hover:text-sky-500 focus-ring" href="contact.html">Contact</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <button type="button" data-theme-toggle aria-pressed="false" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 text-slate-600 dark:text-slate-200 focus-ring" aria-label="Toggle dark mode">
+            <span class="sr-only">Toggle dark mode</span>
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.364-6.364-1.06 1.06M6.697 17.303l-1.06 1.06M18.364 17.303l-1.06-1.06M6.697 6.697 5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+          </button>
+          <button type="button" class="md:hidden flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 text-slate-600 dark:text-slate-200 focus-ring" aria-label="Open navigation" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="md:hidden hidden border-t border-slate-200/70 dark:border-slate-700/70 bg-white/80 dark:bg-slate-900/80">
+        <nav class="mx-auto flex max-w-6xl flex-col px-4 py-4 space-y-3 text-sm font-medium text-slate-700 dark:text-slate-200" aria-label="Mobile navigation">
+          <a class="hover:text-sky-500 focus-ring" href="index.html">Home</a>
+          <a class="hover:text-sky-500 focus-ring" href="research.html">Research</a>
+          <a class="hover:text-sky-500 focus-ring" href="people.html">People</a>
+          <a class="hover:text-sky-500 focus-ring" href="publications.html">Publications</a>
+          <a class="hover:text-sky-500 focus-ring" href="news.html">News</a>
+          <a class="hover:text-sky-500 focus-ring" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="relative overflow-hidden bg-gradient-to-br from-sky-500 via-indigo-500 to-slate-900 text-white">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.4),_transparent_60%)]"></div>
+        <div class="relative mx-auto flex max-w-6xl flex-col items-start gap-10 px-4 py-24 md:flex-row md:items-center">
+          <div class="max-w-2xl space-y-6">
+            <span class="inline-flex items-center gap-2 rounded-full bg-white/20 px-4 py-1 text-sm font-medium uppercase tracking-widest">Chen Bioengineering Lab</span>
+            <h1 class="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Biomaterials and Regenerative Medicine for Cardiovascular Health</h1>
+            <p class="text-lg text-slate-100/90">We create next-generation biomaterials and tissue-engineered solutions to heal and regenerate the cardiovascular system.</p>
+            <div class="flex flex-wrap gap-4">
+              <a href="research.html" class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-sky-600 shadow-lg shadow-sky-900/30 hover:bg-slate-100 focus-ring">Research Focus</a>
+              <a href="people.html" class="inline-flex items-center justify-center rounded-full border border-white/70 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 focus-ring">The Team</a>
+            </div>
+          </div>
+          <div class="relative w-full max-w-lg">
+            <div class="rounded-3xl border border-white/20 bg-white/10 p-8 backdrop-blur shadow-glow">
+              <h2 class="text-xl font-semibold">Research Keywords</h2>
+              <div class="mt-4 flex flex-wrap gap-3 text-sm text-white/90">
+                <span class="rounded-full border border-white/30 px-4 py-1">Biomaterials</span>
+                <span class="rounded-full border border-white/30 px-4 py-1">Cardiovascular Tissue Engineering</span>
+                <span class="rounded-full border border-white/30 px-4 py-1">Regenerative Medicine</span>
+                <span class="rounded-full border border-white/30 px-4 py-1">3D Printing</span>
+                <span class="rounded-full border border-white/30 px-4 py-1">Bioadhesives</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 py-16">
+        <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-widest text-sky-500">What we do</p>
+            <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Transforming cardiovascular care through engineered biomaterials</h2>
+          </div>
+          <p class="max-w-xl text-slate-600 dark:text-slate-300">Our interdisciplinary team bridges materials science, mechanics, and cell biology to design responsive implants, smart bioadhesives, and patient-specific therapies.</p>
+        </div>
+        <div class="mt-12 grid gap-8 md:grid-cols-3">
+          <article class="flex flex-col rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-8 shadow-sm">
+            <img src="assets/img/project-graft.svg" alt="Illustration representing resorbable vascular graft" class="mb-6 h-40 w-full rounded-2xl object-cover" />
+            <h3 class="text-xl font-semibold text-slate-900 dark:text-white">Resorbable Metallo-Elastomer Vascular Grafts</h3>
+            <p class="mt-3 text-slate-600 dark:text-slate-300">Developing mechanically robust, bioresorbable grafts that adapt to pulsatile blood flow while promoting long-term vessel remodeling.</p>
+            <a href="research.html" class="mt-6 inline-flex items-center text-sm font-semibold text-sky-600 hover:text-sky-500">Explore research →</a>
+          </article>
+          <article class="flex flex-col rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-8 shadow-sm">
+            <img src="assets/img/project-piezo.svg" alt="Illustration representing piezoelectric modulation" class="mb-6 h-40 w-full rounded-2xl object-cover" />
+            <h3 class="text-xl font-semibold text-slate-900 dark:text-white">Piezoelectric Modulation of Endothelialization</h3>
+            <p class="mt-3 text-slate-600 dark:text-slate-300">Harnessing mechanical-electrical coupling to direct vascular cell behavior and accelerate endothelial coverage on implants.</p>
+            <a href="research.html" class="mt-6 inline-flex items-center text-sm font-semibold text-sky-600 hover:text-sky-500">Learn more →</a>
+          </article>
+          <article class="flex flex-col rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-8 shadow-sm">
+            <img src="assets/img/project-patch.svg" alt="Illustration representing cardiac patch" class="mb-6 h-40 w-full rounded-2xl object-cover" />
+            <h3 class="text-xl font-semibold text-slate-900 dark:text-white">3D-Printed Cardiac Patches</h3>
+            <p class="mt-3 text-slate-600 dark:text-slate-300">Engineering microchanneled scaffolds that deliver oxygen, cues, and therapeutic cells to damaged myocardium.</p>
+            <a href="research.html" class="mt-6 inline-flex items-center text-sm font-semibold text-sky-600 hover:text-sky-500">See project →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="bg-slate-100/70 dark:bg-slate-900/60 py-16">
+        <div class="mx-auto max-w-6xl px-4">
+          <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+            <div class="space-y-6">
+              <p class="text-sm font-semibold uppercase tracking-widest text-sky-500">Lab Snapshot</p>
+              <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Collaborative science with clinical impact</h2>
+              <p class="text-slate-600 dark:text-slate-300">We partner with clinicians and industry to translate platform biomaterials into lifesaving devices. From benchtop discovery to preclinical validation, our lab integrates computational design, advanced manufacturing, and in vivo testing.</p>
+              <ul class="space-y-3 text-slate-600 dark:text-slate-300">
+                <li class="flex items-start gap-3"><span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-500/20 text-sky-600">1</span> Multi-scale biomaterial synthesis and characterization</li>
+                <li class="flex items-start gap-3"><span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-500/20 text-sky-600">2</span> Cellular and molecular assays for regenerative outcomes</li>
+                <li class="flex items-start gap-3"><span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-500/20 text-sky-600">3</span> Translational collaborations with cardiovascular surgeons</li>
+              </ul>
+            </div>
+            <div class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-10 shadow-glow">
+              <h3 class="text-xl font-semibold text-slate-900 dark:text-white">Join our lab</h3>
+              <p class="mt-3 text-slate-600 dark:text-slate-300">We are recruiting motivated graduate students and postdoctoral researchers passionate about biomaterials innovation.</p>
+              <a href="contact.html" class="mt-6 inline-flex items-center justify-center rounded-full bg-sky-500 px-6 py-3 text-sm font-semibold text-white hover:bg-sky-600 focus-ring">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200/70 dark:border-slate-800/70 bg-white/80 dark:bg-slate-900/80 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-slate-500 dark:text-slate-400 md:flex-row md:items-center md:justify-between">
+        <p>&copy; <span id="current-year"></span> Chen Bioengineering Lab. Static Site • GitHub Pages.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-sky-500">Scholar</a>
+          <a href="#" class="hover:text-sky-500">ORCID</a>
+          <a href="#" class="hover:text-sky-500">GitHub</a>
+          <a href="#" class="hover:text-sky-500">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/js/darkmode.js" defer></script>
+  </body>
+</html>

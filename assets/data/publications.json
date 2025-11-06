@@ -1,0 +1,34 @@
+[
+  {
+    "year": 2025,
+    "title": "Elliptical Dichroism Spectroscopy for Biomolecular Analysis",
+    "authors": "Chen Y, Asad Y, et al.",
+    "venue": "Analytical Chemistry (Submitted)",
+    "link": "#",
+    "bibtex": "@article{Chen2025ED, title={Elliptical Dichroism Spectroscopy for Biomolecular Analysis}, author={Chen, Ying and Asad, Yasmin and others}, journal={Analytical Chemistry}, year={2025}, note={Submitted}}"
+  },
+  {
+    "year": 2024,
+    "title": "Self-Healing Bioadhesives for Minimally Invasive Vascular Repair",
+    "authors": "Chen Y, Patel R, Gomez L, et al.",
+    "venue": "Nature Biomedical Engineering",
+    "link": "#",
+    "bibtex": "@article{Chen2024Bioadhesive, title={Self-Healing Bioadhesives for Minimally Invasive Vascular Repair}, author={Chen, Ying and Patel, Riya and Gomez, Lucia and others}, journal={Nature Biomedical Engineering}, year={2024}, volume={8}, pages={123-133}}"
+  },
+  {
+    "year": 2024,
+    "title": "Piezoelectric Microtextures Accelerate Endothelial Alignment",
+    "authors": "Nguyen T, Chen Y, et al.",
+    "venue": "Advanced Functional Materials",
+    "link": "#",
+    "bibtex": "@article{Nguyen2024Piezo, title={Piezoelectric Microtextures Accelerate Endothelial Alignment}, author={Nguyen, Thao and Chen, Ying and others}, journal={Advanced Functional Materials}, year={2024}, volume={34}, pages={2100456}}"
+  },
+  {
+    "year": 2023,
+    "title": "Programmable 3D-Printed Cardiac Patches with Microchannel Networks",
+    "authors": "Rodriguez M, Chen Y, et al.",
+    "venue": "Science Translational Medicine",
+    "link": "#",
+    "bibtex": "@article{Rodriguez2023Cardiac, title={Programmable 3D-Printed Cardiac Patches with Microchannel Networks}, author={Rodriguez, Mateo and Chen, Ying and others}, journal={Science Translational Medicine}, year={2023}, volume={15}, pages={eabb1234}}"
+  }
+]

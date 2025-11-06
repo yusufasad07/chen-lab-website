@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News | Chen Bioengineering Lab</title>
+    <meta name="description" content="Latest news and highlights from the Chen Bioengineering Lab." />
+    <meta property="og:title" content="Chen Bioengineering Lab News" />
+    <meta property="og:description" content="Updates on biomaterials research, awards, and lab culture." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/news.html" />
+    <meta property="og:image" content="assets/img/news-placeholder.svg" />
+    <link rel="icon" href="assets/img/project-graft.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+    <header class="sticky top-0 z-50 backdrop-blur bg-white/80 dark:bg-slate-900/80 border-b border-slate-200/60 dark:border-slate-800">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <a href="index.html" class="flex items-center gap-3 focus-ring">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-sky-500 text-white font-semibold">C</span>
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-300">Chen Bioengineering Lab</p>
+            <p class="text-sm text-slate-500 dark:text-slate-400">Cardiovascular Biomaterials</p>
+          </div>
+        </a>
+        <nav aria-label="Primary navigation" class="hidden gap-8 text-sm font-medium text-slate-700 dark:text-slate-200 md:flex">
+          <a class="hover:text-sky-500 focus-ring" href="index.html">Home</a>
+          <a class="hover:text-sky-500 focus-ring" href="research.html">Research</a>
+          <a class="hover:text-sky-500 focus-ring" href="people.html">People</a>
+          <a class="hover:text-sky-500 focus-ring" href="publications.html">Publications</a>
+          <a class="hover:text-sky-500 focus-ring text-sky-600 dark:text-sky-400" href="news.html">News</a>
+          <a class="hover:text-sky-500 focus-ring" href="contact.html">Contact</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <button type="button" data-theme-toggle aria-pressed="false" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 text-slate-600 dark:text-slate-200 focus-ring" aria-label="Toggle dark mode">
+            <span class="sr-only">Toggle dark mode</span>
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.364-6.364-1.06 1.06M6.697 17.303l-1.06 1.06M18.364 17.303l-1.06-1.06M6.697 6.697 5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+          </button>
+          <button type="button" class="md:hidden flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 text-slate-600 dark:text-slate-200 focus-ring" aria-label="Open navigation" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="md:hidden hidden border-t border-slate-200/70 dark:border-slate-700/70 bg-white/80 dark:bg-slate-900/80">
+        <nav class="mx-auto flex max-w-6xl flex-col px-4 py-4 space-y-3 text-sm font-medium text-slate-700 dark:text-slate-200" aria-label="Mobile navigation">
+          <a class="hover:text-sky-500 focus-ring" href="index.html">Home</a>
+          <a class="hover:text-sky-500 focus-ring" href="research.html">Research</a>
+          <a class="hover:text-sky-500 focus-ring" href="people.html">People</a>
+          <a class="hover:text-sky-500 focus-ring" href="publications.html">Publications</a>
+          <a class="hover:text-sky-500 focus-ring text-sky-600 dark:text-sky-400" href="news.html">News</a>
+          <a class="hover:text-sky-500 focus-ring" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pb-16">
+      <section class="bg-slate-100/70 dark:bg-slate-900/60 py-16">
+        <div class="mx-auto max-w-6xl px-4">
+          <p class="text-sm font-semibold uppercase tracking-widest text-sky-500">Newsroom</p>
+          <h1 class="mt-4 text-4xl font-bold text-slate-900 dark:text-white">Highlights from the Chen Bioengineering Lab</h1>
+          <p class="mt-6 max-w-2xl text-lg text-slate-600 dark:text-slate-300">Stay informed about our recent publications, awards, outreach efforts, and lab culture moments.</p>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 pt-16">
+        <div class="grid gap-10 lg:grid-cols-[2fr_1fr]">
+          <div class="grid gap-8 sm:grid-cols-2">
+            <article class="flex h-full flex-col rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur">
+              <img src="assets/img/news-placeholder.svg" alt="Lab members presenting at conference" class="h-48 w-full rounded-t-3xl object-cover" />
+              <div class="flex flex-1 flex-col gap-4 p-6">
+                <p class="text-xs font-semibold uppercase tracking-widest text-slate-500">May 12, 2025</p>
+                <h2 class="text-xl font-semibold text-slate-900 dark:text-white">Lab earns translational grant for bioresorbable vascular grafts</h2>
+                <p class="text-sm text-slate-600 dark:text-slate-300">The Chen Lab secured a multi-year award to advance metallo-elastomer grafts into large-animal testing, partnering with cardiovascular surgeons.</p>
+                <a href="#" class="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-sky-600 hover:text-sky-500">Read more →</a>
+              </div>
+            </article>
+
+            <article class="flex h-full flex-col rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur">
+              <img src="assets/img/news-placeholder.svg" alt="Graduate student celebrating award" class="h-48 w-full rounded-t-3xl object-cover" />
+              <div class="flex flex-1 flex-col gap-4 p-6">
+                <p class="text-xs font-semibold uppercase tracking-widest text-slate-500">March 2, 2025</p>
+                <h2 class="text-xl font-semibold text-slate-900 dark:text-white">Riya Patel receives NSF Graduate Research Fellowship</h2>
+                <p class="text-sm text-slate-600 dark:text-slate-300">Riya will develop injectable bioadhesives for minimally invasive vascular repair using smart polymer networks.</p>
+                <a href="#" class="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-sky-600 hover:text-sky-500">Read more →</a>
+              </div>
+            </article>
+
+            <article class="flex h-full flex-col rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur">
+              <img src="assets/img/news-placeholder.svg" alt="Students working in lab" class="h-48 w-full rounded-t-3xl object-cover" />
+              <div class="flex flex-1 flex-col gap-4 p-6">
+                <p class="text-xs font-semibold uppercase tracking-widest text-slate-500">January 18, 2025</p>
+                <h2 class="text-xl font-semibold text-slate-900 dark:text-white">New paper reveals piezoelectric microtextures enhance endothelial alignment</h2>
+                <p class="text-sm text-slate-600 dark:text-slate-300">Published in Advanced Functional Materials, our study demonstrates how piezoelectric cues accelerate endothelialization.</p>
+                <a href="#" class="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-sky-600 hover:text-sky-500">Read more →</a>
+              </div>
+            </article>
+
+            <article class="flex h-full flex-col rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur">
+              <img src="assets/img/news-placeholder.svg" alt="Outreach event with students" class="h-48 w-full rounded-t-3xl object-cover" />
+              <div class="flex flex-1 flex-col gap-4 p-6">
+                <p class="text-xs font-semibold uppercase tracking-widest text-slate-500">November 9, 2024</p>
+                <h2 class="text-xl font-semibold text-slate-900 dark:text-white">STEM outreach: Chen Lab hosts biomaterials workshop for local students</h2>
+                <p class="text-sm text-slate-600 dark:text-slate-300">We welcomed high school students to explore soft robotics and regenerative medicine through hands-on demos.</p>
+                <a href="#" class="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-sky-600 hover:text-sky-500">Read more →</a>
+              </div>
+            </article>
+          </div>
+
+          <aside class="space-y-6 rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/70 backdrop-blur p-6">
+            <div>
+              <h3 class="text-lg font-semibold text-slate-900 dark:text-white">Subscribe for updates</h3>
+              <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Join our mailing list to receive quarterly news about publications, events, and opportunities.</p>
+              <form class="mt-4 space-y-3" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+                <label class="block text-sm font-medium text-slate-700 dark:text-slate-200" for="email">Email address</label>
+                <input id="email" type="email" required class="w-full rounded-2xl border-slate-300 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 focus:border-sky-500 focus:ring-sky-500" placeholder="you@example.com" />
+                <button type="submit" class="w-full rounded-full bg-sky-500 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-600 focus-ring">Subscribe</button>
+              </form>
+            </div>
+            <div class="border-t border-slate-300/40 pt-6 text-sm text-slate-600 dark:text-slate-300">
+              <h4 class="font-semibold text-slate-700 dark:text-white">Media contact</h4>
+              <p>Email: <a href="mailto:chenlab@example.com" class="text-sky-600 hover:text-sky-500">chenlab@example.com</a></p>
+              <p class="mt-2">Phone: +1 000 000 0000</p>
+            </div>
+            <div class="border-t border-slate-300/40 pt-6 text-sm text-slate-600 dark:text-slate-300">
+              <h4 class="font-semibold text-slate-700 dark:text-white">Connect with us</h4>
+              <ul class="mt-3 space-y-2">
+                <li><a href="#" class="hover:text-sky-500">Scholar</a></li>
+                <li><a href="#" class="hover:text-sky-500">ORCID</a></li>
+                <li><a href="#" class="hover:text-sky-500">GitHub</a></li>
+                <li><a href="#" class="hover:text-sky-500">LinkedIn</a></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200/70 dark:border-slate-800/70 bg-white/80 dark:bg-slate-900/80 backdrop-blur mt-20">
+      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-slate-500 dark:text-slate-400 md:flex-row md:items-center md:justify-between">
+        <p>&copy; <span id="current-year"></span> Chen Bioengineering Lab. Static Site • GitHub Pages.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-sky-500">Scholar</a>
+          <a href="#" class="hover:text-sky-500">ORCID</a>
+          <a href="#" class="hover:text-sky-500">GitHub</a>
+          <a href="#" class="hover:text-sky-500">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/js/darkmode.js" defer></script>
+  </body>
+</html>
