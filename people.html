@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>People | Chen Bioengineering Lab</title>
+    <meta name="description" content="Meet the Chen Bioengineering Lab team: principal investigator Ying (Grace) Chen and a multidisciplinary group of trainees." />
+    <meta property="og:title" content="Chen Bioengineering Lab Team" />
+    <meta property="og:description" content="Biomaterials researchers advancing cardiovascular regeneration." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/people.html" />
+    <meta property="og:image" content="assets/img/pi-chen.svg" />
+    <link rel="icon" href="assets/img/project-graft.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+    <header class="sticky top-0 z-50 backdrop-blur bg-white/80 dark:bg-slate-900/80 border-b border-slate-200/60 dark:border-slate-800">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <a href="index.html" class="flex items-center gap-3 focus-ring">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-sky-500 text-white font-semibold">C</span>
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-300">Chen Bioengineering Lab</p>
+            <p class="text-sm text-slate-500 dark:text-slate-400">Cardiovascular Biomaterials</p>
+          </div>
+        </a>
+        <nav aria-label="Primary navigation" class="hidden gap-8 text-sm font-medium text-slate-700 dark:text-slate-200 md:flex">
+          <a class="hover:text-sky-500 focus-ring" href="index.html">Home</a>
+          <a class="hover:text-sky-500 focus-ring" href="research.html">Research</a>
+          <a class="hover:text-sky-500 focus-ring text-sky-600 dark:text-sky-400" href="people.html">People</a>
+          <a class="hover:text-sky-500 focus-ring" href="publications.html">Publications</a>
+          <a class="hover:text-sky-500 focus-ring" href="news.html">News</a>
+          <a class="hover:text-sky-500 focus-ring" href="contact.html">Contact</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <button type="button" data-theme-toggle aria-pressed="false" class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 text-slate-600 dark:text-slate-200 focus-ring" aria-label="Toggle dark mode">
+            <span class="sr-only">Toggle dark mode</span>
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.364-6.364-1.06 1.06M6.697 17.303l-1.06 1.06M18.364 17.303l-1.06-1.06M6.697 6.697 5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+          </button>
+          <button type="button" class="md:hidden flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800/70 text-slate-600 dark:text-slate-200 focus-ring" aria-label="Open navigation" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="md:hidden hidden border-t border-slate-200/70 dark:border-slate-700/70 bg-white/80 dark:bg-slate-900/80">
+        <nav class="mx-auto flex max-w-6xl flex-col px-4 py-4 space-y-3 text-sm font-medium text-slate-700 dark:text-slate-200" aria-label="Mobile navigation">
+          <a class="hover:text-sky-500 focus-ring" href="index.html">Home</a>
+          <a class="hover:text-sky-500 focus-ring" href="research.html">Research</a>
+          <a class="hover:text-sky-500 focus-ring text-sky-600 dark:text-sky-400" href="people.html">People</a>
+          <a class="hover:text-sky-500 focus-ring" href="publications.html">Publications</a>
+          <a class="hover:text-sky-500 focus-ring" href="news.html">News</a>
+          <a class="hover:text-sky-500 focus-ring" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="pb-16">
+      <section class="bg-slate-100/70 dark:bg-slate-900/60 py-16">
+        <div class="mx-auto max-w-6xl px-4">
+          <p class="text-sm font-semibold uppercase tracking-widest text-sky-500">Our Team</p>
+          <h1 class="mt-4 text-4xl font-bold text-slate-900 dark:text-white">Scientists, engineers, and clinicians collaborating for cardiovascular impact</h1>
+          <p class="mt-6 max-w-2xl text-lg text-slate-600 dark:text-slate-300">We are a diverse, interdisciplinary group led by Ying (Grace) Chen, Ph.D., dedicated to transforming biomaterials discoveries into therapies for patients with heart and vascular disease.</p>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 pt-16">
+        <div class="grid gap-10 lg:grid-cols-[2fr_1fr]">
+          <article class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-8">
+            <div class="flex flex-col gap-8 lg:flex-row lg:items-center">
+              <img src="assets/img/pi-chen.svg" alt="Portrait placeholder for Ying (Grace) Chen" class="h-48 w-48 rounded-2xl object-cover" />
+              <div class="space-y-4">
+                <div>
+                  <h2 class="text-3xl font-semibold text-slate-900 dark:text-white">Ying (Grace) Chen, Ph.D.</h2>
+                  <p class="text-sm uppercase tracking-widest text-slate-500">Assistant Professor of Biomedical Engineering</p>
+                </div>
+                <p class="text-slate-600 dark:text-slate-300">Dr. Chen leads the Chen Bioengineering Lab, focusing on biomaterials and regenerative medicine for cardiovascular health. Her research integrates responsive materials, biofabrication, and mechanobiology to create therapies that restore function after heart and vascular injury.</p>
+                <div class="flex flex-wrap gap-3 text-sm">
+                  <a href="#" class="inline-flex items-center gap-2 rounded-full bg-sky-500 px-4 py-2 font-medium text-white hover:bg-sky-600 focus-ring">View Scholar Profile</a>
+                  <a href="mailto:chenlab@example.com" class="inline-flex items-center gap-2 rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">Email Dr. Chen</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <aside class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/70 backdrop-blur p-6">
+            <h3 class="text-lg font-semibold text-slate-900 dark:text-white">Open Positions</h3>
+            <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">We are recruiting graduate students and postdoctoral scholars interested in biomaterials, mechanobiology, and translational cardiovascular research.</p>
+            <a href="contact.html" class="mt-4 inline-flex items-center rounded-full bg-sky-500 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-600 focus-ring">Inquire now</a>
+            <div class="mt-6 border-t border-slate-300/50 pt-4 text-sm text-slate-600 dark:text-slate-300">
+              <p class="font-semibold text-slate-700 dark:text-white">Lab Location</p>
+              <p>Engineering Building Room 224</p>
+              <p class="mt-2 text-slate-500 dark:text-slate-400">Phone: +1 000 000 0000</p>
+              <p>Email: <a href="mailto:chenlab@example.com" class="text-sky-600 hover:text-sky-500">chenlab@example.com</a></p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 pt-20">
+        <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Current Members</h2>
+            <p class="mt-2 text-slate-600 dark:text-slate-300">Our trainees bring expertise in materials science, bioengineering, and clinical translation.</p>
+          </div>
+          <a href="news.html" class="inline-flex items-center gap-2 rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 text-sm font-semibold text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">See lab highlights</a>
+        </div>
+        <div class="mt-12 grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
+          <article class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-6 text-center">
+            <img src="assets/img/member-placeholder.svg" alt="Portrait placeholder for team member" class="mx-auto h-40 w-40 rounded-full object-cover" />
+            <h3 class="mt-6 text-xl font-semibold text-slate-900 dark:text-white">Riya Patel, Ph.D. Candidate</h3>
+            <p class="mt-2 text-sm uppercase tracking-widest text-slate-500">Biomaterials &amp; Bioadhesives</p>
+            <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">Designs shear-responsive bioadhesives for minimally invasive vascular repair.</p>
+            <a href="mailto:riya.patel@example.com" class="mt-4 inline-flex items-center justify-center rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">Email</a>
+          </article>
+
+          <article class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-6 text-center">
+            <img src="assets/img/member-placeholder.svg" alt="Portrait placeholder for team member" class="mx-auto h-40 w-40 rounded-full object-cover" />
+            <h3 class="mt-6 text-xl font-semibold text-slate-900 dark:text-white">Mateo Rodriguez, M.S.</h3>
+            <p class="mt-2 text-sm uppercase tracking-widest text-slate-500">3D Biofabrication</p>
+            <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">Leads 3D-printed cardiac patch development and perfusion bioreactor design.</p>
+            <a href="mailto:mateo.rodriguez@example.com" class="mt-4 inline-flex items-center justify-center rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">Email</a>
+          </article>
+
+          <article class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-6 text-center">
+            <img src="assets/img/member-placeholder.svg" alt="Portrait placeholder for team member" class="mx-auto h-40 w-40 rounded-full object-cover" />
+            <h3 class="mt-6 text-xl font-semibold text-slate-900 dark:text-white">Thao Nguyen, Ph.D.</h3>
+            <p class="mt-2 text-sm uppercase tracking-widest text-slate-500">Piezoelectric Mechanobiology</p>
+            <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">Studies electromechanical cues that enhance endothelialization on vascular implants.</p>
+            <a href="mailto:thao.nguyen@example.com" class="mt-4 inline-flex items-center justify-center rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">Email</a>
+          </article>
+
+          <article class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-6 text-center">
+            <img src="assets/img/member-placeholder.svg" alt="Portrait placeholder for team member" class="mx-auto h-40 w-40 rounded-full object-cover" />
+            <h3 class="mt-6 text-xl font-semibold text-slate-900 dark:text-white">Lucia Gomez, Ph.D. Student</h3>
+            <p class="mt-2 text-sm uppercase tracking-widest text-slate-500">Immune Engineering</p>
+            <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">Examines immune modulation strategies for biomaterial integration.</p>
+            <a href="mailto:lucia.gomez@example.com" class="mt-4 inline-flex items-center justify-center rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">Email</a>
+          </article>
+
+          <article class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-6 text-center">
+            <img src="assets/img/member-placeholder.svg" alt="Portrait placeholder for team member" class="mx-auto h-40 w-40 rounded-full object-cover" />
+            <h3 class="mt-6 text-xl font-semibold text-slate-900 dark:text-white">Evan Brooks, Postdoctoral Fellow</h3>
+            <p class="mt-2 text-sm uppercase tracking-widest text-slate-500">Computational Hemodynamics</p>
+            <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">Develops simulation pipelines predicting patient-specific implant performance.</p>
+            <a href="mailto:evan.brooks@example.com" class="mt-4 inline-flex items-center justify-center rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">Email</a>
+          </article>
+
+          <article class="rounded-3xl border border-slate-200/70 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur p-6 text-center">
+            <img src="assets/img/member-placeholder.svg" alt="Portrait placeholder for team member" class="mx-auto h-40 w-40 rounded-full object-cover" />
+            <h3 class="mt-6 text-xl font-semibold text-slate-900 dark:text-white">Sara Ahmed, Research Technician</h3>
+            <p class="mt-2 text-sm uppercase tracking-widest text-slate-500">Biopolymer Synthesis</p>
+            <p class="mt-3 text-sm text-slate-600 dark:text-slate-300">Supports lab operations and leads synthesis of novel elastomeric materials.</p>
+            <a href="mailto:sara.ahmed@example.com" class="mt-4 inline-flex items-center justify-center rounded-full border border-slate-300 dark:border-slate-600 px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 focus-ring">Email</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200/70 dark:border-slate-800/70 bg-white/80 dark:bg-slate-900/80 backdrop-blur mt-20">
+      <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-slate-500 dark:text-slate-400 md:flex-row md:items-center md:justify-between">
+        <p>&copy; <span id="current-year"></span> Chen Bioengineering Lab. Static Site • GitHub Pages.</p>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-sky-500">Scholar</a>
+          <a href="#" class="hover:text-sky-500">ORCID</a>
+          <a href="#" class="hover:text-sky-500">GitHub</a>
+          <a href="#" class="hover:text-sky-500">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/js/darkmode.js" defer></script>
+  </body>
+</html>

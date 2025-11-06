@@ -1,0 +1,20 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.dark .shadow-glow {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.35);
+}
+
+.light .shadow-glow {
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.15);
+}
+
+.focus-ring:focus {
+  outline: 3px solid rgba(59, 130, 246, 0.45);
+  outline-offset: 3px;
+}
